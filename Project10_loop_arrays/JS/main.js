@@ -51,7 +51,7 @@ let shark = {
     length: "18 foot ",
     description : function() {
         return "This shark is an " + this.length + this.sex + this.type 
-        + "named " + this.named +;
+        + "named " + this.named;
     }
 };
 document.getElementById("Shark_Object").innerHTML = shark.description();
